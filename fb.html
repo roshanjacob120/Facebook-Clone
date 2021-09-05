@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="fb.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a class="logotext" href="fb.html">facebook</a>
+            </div>
+            <div class="login">
+                <form >
+                <table class="login-controls">
+                    <tr>
+                        <td class="login-label"><label>Email or Phone number</label> </td>
+                        <td class="login-label"><label>Password</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input class="sub-button" type="submit" value="Login"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="login-label">Forgotten account?</td>
+                    </tr>
+
+                </table>
+            </form>
+            </div>
+        </div>
+        <div class="main-body">
+            <div class="left-section">
+                <p class="para">Facebook helps you connect and share with the <br> people in your life.</p>
+                <img class="image" src ="fb.png">
+
+            </div>
+            <div class="right-section">
+            <h1>Create an account</h1>
+            <h3>It's quick and easy.</h3>
+            <form action="h2.html" id="signup-form">
+                <input name="fname" class="accountcreation" type="text" placeholder="First name">
+                <input name="sname" class="accountcreation" type="text" placeholder="Surname">
+                <br>
+                <br>
+                <input name="fmail" class="accountcreation2" type="text" placeholder="Mobile number or Email Address">
+                <br>
+                <br>
+                <input name="fpass" class="accountcreation2" type="text" placeholder="New Password">
+                <br>
+                <label class="birthday">Birthday</label>
+                <br>
+                <select name="day">
+                    <option value="">Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    
+                    
+                </select>
+                <select name="month">
+                    <option>Month</option>
+                    <option>Jan</option>
+                    <option>Feb</option>
+                    <option>Mar</option>
+                    <option>Apr</option>
+                    <option>May</option>
+                    <option>June</option>
+                    <option>July</option>
+                    <option>Aug</option>
+
+                </select>
+                <select name="year">
+                    <option>Year</option>
+                    <option>1995</option>
+                    <option>1996</option>
+                    <option>1997</option>
+                    <option>1998</option>
+                    <option>1999</option>
+                    <option>2000</option>
+                    <option>2001</option>
+                    <option>2003</option>
+
+
+                </select>
+                <br>
+                <label class="birthday">Gender</label>
+                <br>
+                
+                <label>Female</label>
+                <input class="check" name="gender" type="radio">
+                <label>Male</label>
+                <input class="check" name="gender" type="radio">
+                <label>Custom</label>
+                <input class="check" name="gender" type="radio">
+                <br>
+                <p>By Clicking Sign Up,you agree to our Terms,Data Policy<br>and Cookie Policy.You may recieve SMS Notifications from us<br>and can opt out at any time.</p>
+                <input class="create" style="font-family: Arial, Helvetica, sans-serif;font-size: larger; "   type="submit" value="Sign up">
+            
+                
+                
+            </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
